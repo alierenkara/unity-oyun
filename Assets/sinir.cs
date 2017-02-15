@@ -5,7 +5,7 @@ using UnityEngine;
 public class sinir : MonoBehaviour {
 
     public float left = -3.81f;
-    public float right = 3.95f;
+    public float right = 3.81f;
     void Start () {
 		
 	}
