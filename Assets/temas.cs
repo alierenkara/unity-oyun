@@ -9,6 +9,7 @@ public class temas : MonoBehaviour {
         //if (durum.gameObject.name == "zemin")
         if (durum.gameObject.tag=="Player")
         {
+        
             Debug.Log("DEGDİ");
         }
     }

@@ -17,11 +17,11 @@ public class top : MonoBehaviour {
     }
 	
 	void Update () {
+
+
         timer -= Time.deltaTime;
         CreatTriangle();
-       
     
-
 
             }
     void CreatTriangle(){
@@ -31,6 +31,7 @@ public class top : MonoBehaviour {
             Instantiate(klon, new Vector3(-0.2f,10.6f, 2.83f), Quaternion.identity);
             timer = timerMax;
         }
+
 
     }
 
