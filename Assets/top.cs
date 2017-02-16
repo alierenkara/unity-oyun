@@ -27,8 +27,9 @@ public class top : MonoBehaviour {
     void CreatTriangle(){
         if (timer < 0)
         {
+            float random = Random.Range(-3.81f, 3.81f);
 
-            Instantiate(klon, new Vector3(-0.2f,10.6f, 2.83f), Quaternion.identity);
+            Instantiate(klon, new Vector3(random,10.6f, 2.83f), Quaternion.identity);
             timer = timerMax;
         }
 
